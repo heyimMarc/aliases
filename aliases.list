@@ -1,0 +1,7 @@
+# include that file in your .bashrc or .zshrc depending on that shell you use
+#source /Users/marcnuetzel/Projekte/aliases/aliases.list
+
+#AWSume alias to source the AWSume script
+alias awsume=". awsume"
+#delete all local branches except master
+alias gbr=„git branch | grep -v „master“ | xargs git branch -D“
